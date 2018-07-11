@@ -15,7 +15,7 @@ Create the birds table before running the application :
 ```
 create table birds (
   id serial primary key,
-  bird varchar(256),
+  species varchar(256),
   description varchar(1024)
 );
 ```
